@@ -9,12 +9,15 @@ targets:
   HushSwiftApp:
     type: application
     platform: iOS
+
     sources:
       - HushSwiftAppApp.swift
       - ContentView.swift
+
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.hushswift.app
         PRODUCT_NAME: HushSwiftApp
         SWIFT_VERSION: "5.0"
         TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
